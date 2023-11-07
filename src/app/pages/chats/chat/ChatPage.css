@@ -1,0 +1,66 @@
+.chat-page {
+  height: 100%;
+  background-image: url(/src/assets/bg-chat-light.png);
+  background-size: contain;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI';
+  width: 100%;
+}
+
+.chat-page__info {
+  background-color: #434243;
+  height: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 40px;
+  width: calc(100vw - 300px);
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  letter-spacing: 1px;
+  gap: 1rem;
+}
+
+.chat-page__info.chat-page__info-collapsed {
+  width: calc(100vw - 100px);
+}
+
+.info__avatar {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.info__avatar img {
+  width: 20px;
+  display: block;
+}
+
+.info__name {
+  font-size: 1.2rem;
+}
+
+.info__status {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 1rem;
+}
+
+.chat-page__messages {
+  padding: 80px 3rem 0 3rem;
+  min-height: calc(100% - 100px);
+  overflow-y: scroll;
+}
+
+.chat-page__send {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: #f0f2f5;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}

@@ -1,0 +1,25 @@
+.login-page__content {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  background-color: #03b68f;
+}
+
+.login-page__form {
+  position: relative;
+  max-width: 400px;
+  width: 95%;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgb(236, 236, 236);
+}
+.login-page__form--title {
+  text-align: center;
+  text-transform: uppercase;
+}

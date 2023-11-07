@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url(/src/assets/fonts/helvetica_regular.otf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url(/src/assets/fonts/helvetica_bold.otf);
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url(/src/assets/fonts/helvetica_light.otf);
+  font-weight: 300;
+  font-style: light;
+}
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(/src/assets/fonts/Segoe\ UI.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  -ms-overflow-style: none;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 4px !important;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-color: rgb(107, 107, 107);
+}
+
+.Toastify__toast {
+  font-family: 'Helvetica', sans-serif;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit !important ;
+}

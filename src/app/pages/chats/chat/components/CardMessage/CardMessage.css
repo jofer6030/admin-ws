@@ -1,0 +1,49 @@
+.card-message {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.card-message__body {
+  max-width: 65%;
+  padding: 6px 70px 10px 9px;
+  border-radius: 7.5px;
+  white-space: pre-line;
+  box-shadow: 0 1px 0.5px rgba(11, 20, 26, 0.13);
+  position: relative;
+}
+
+.card-message__body.card-message__body-assistant {
+  background-color: #d9fdd3;
+  margin-left: auto;
+  padding-right: 85px;
+}
+
+.card-message__body.card-message__body-user {
+  background-color: #fff;
+  margin-right: auto;
+}
+
+.card-message__body__info {
+  position: absolute;
+  right: 7px;
+  bottom: 5px;
+  font-size: 9.625px;
+  color: #4a484899;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.card-message__body__check {
+  display: flex;
+  font-size: 12px;
+}
+
+.card-message__body__check span:nth-child(2) {
+  position: relative;
+  right: 6px;
+}
+
+.card-message__body__check-read {
+  color: #53bdeb;
+}
